@@ -1,0 +1,16 @@
+.navbar {
+    background-color: #151515;
+}
+
+.navbar_title {
+    color: white;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.navbar_title > h1{
+    padding: 1rem;
+    font-size: 25px;
+}
