@@ -16,3 +16,21 @@ code {
 * {
   margin: 0%;
 }
+
+@font-face {
+  font-family: 'Raleway-Regular';
+  src: local('Raleway-Regular'),
+      url(./fonts/Raleway/Raleway-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Raleway-Light';
+  src: local('Raleway-Light'),
+      url(./fonts/Raleway/Raleway-ExtraLight.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Rounded-Elegance';
+  src: local('Rounded-Elegance'),
+      url(./fonts/Rounded-Elegance/Rounded-Elegance.ttf) format('truetype');
+}
