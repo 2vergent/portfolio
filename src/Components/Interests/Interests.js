@@ -9,22 +9,22 @@ const Interest = () => {
             </div>
             <div className="skills">
                 <div className="skills_photo">
-                    <h2>Photo Editing</h2>
-                    <h2>Photo Retouching and Artistic Manipulations</h2>
-                    <h2>Tools - Photoshop and Lightroom</h2>
-                    <h2>Underpixel - Photo Editing page on Instagram</h2>
+                    <h1>Photo Editing</h1>
+                    <h2>&#47;&#47; Photo Retouching</h2>
+                    <h2>&#47;&#47; Artistic Photo Manipulations</h2>
+                    <h2>&#47;&#47; Underpixel - Instagram Page</h2>
                 </div>
                 <div className="skills_video">
-                    <h2>Video Editing</h2>
-                    <h2>Making Gaming Montages and Funny Moments Videos</h2>
-                    <h2>Tools - After Effects and Premiere Pro</h2>
-                    <h2>sphn1x - Youtube Channel</h2>
+                    <h1>Video Editing</h1>
+                    <h2>&#47;&#47; Gaming Montages</h2>
+                    <h2>&#47;&#47; Funny Moments Videos</h2>
+                    <h2>&#47;&#47; sphn1x - Youtube Channel</h2>
                 </div>
                 <div className="skills_hobbies">
-                    <h2>Hobbies</h2>
-                    <h2>Coding</h2>
-                    <h2>Watching Movies</h2>
-                    <h2>Making Youtube videos</h2>
+                    <h1>Hobbies</h1>
+                    <h2>&#47;&#47; Coding</h2>
+                    <h2>&#47;&#47; Watching Movies</h2>
+                    <h2>&#47;&#47; Making Youtube videos</h2>
                 </div>
             </div>
         </div>

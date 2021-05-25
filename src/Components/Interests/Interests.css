@@ -1,21 +1,32 @@
 .interests {
     width: 100%;
     background: #151515;
-    height: 400px;
+    padding-bottom: 2rem;
 }
 
 .interests_title > h1 {
     color: white;
     font-family: 'Raleway-Regular';
     padding: 1rem 2rem;
+    font-size: 25px;
     display: flex;
     justify-content: center;
-    border-bottom: solid 1px azure;
+    border-bottom: solid 1px orange;
+    margin-left: 35px;
+    margin-right: 35px;
 }
 
 .skills {
     display: flex;
     justify-content: space-between;
+}
+
+.skills_photo > h1 {
+    color: white;
+    padding-top: 2.5rem;
+    padding-left: 4rem;
+    font-size: 20px;
+    font-family: 'Raleway-Regular';
 }
 
 .skills_photo > h2 {
@@ -26,11 +37,33 @@
     font-family: 'Raleway-Light';
 }
 
+.logo {
+    width: 20px;
+    height: 20px;
+}
+
+.skills_video > h1 {
+    color: white;
+    padding-top: 2.5rem;
+    padding-left: 1.5rem;
+    font-size: 20px;
+    font-family: 'Raleway-Regular';
+}
+
 .skills_video > h2 {
     color: white;
     padding-top: 2.5rem;
     font-size: 20px;
     font-family: 'Raleway-Light';
+}
+
+.skills_hobbies > h1 {
+    color: white;
+    padding-top: 2.5rem;
+    padding-left: 1.2rem;
+    padding-right: 2.5rem;
+    font-size: 20px;
+    font-family: 'Raleway-Regular';
 }
 
 .skills_hobbies > h2 {

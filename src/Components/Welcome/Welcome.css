@@ -8,8 +8,8 @@
 
 .avatar {
     padding: 3rem;
-    width: 250px;
-    height: 250px;
+    width: 350px;
+    height: 350px;
     border-radius: 100%;
     display: block;
     margin: auto;
@@ -20,6 +20,7 @@
     font-family: 'Raleway-Regular';
     justify-content: center;
     display: flex;
+    font-size: 30px;
     padding-bottom: 1rem;
 }
 
@@ -28,7 +29,20 @@
     font-family: 'Raleway-Light';
     justify-content: center;
     display: flex;
+    font-size: 22px;
     padding: 1rem;
+}
+
+a img:last-child {
+    display: none;
+}
+
+a:hover img:last-child {
+    display: block;
+}
+
+a:hover img:first-child {
+    display: none;
 }
 
 .links {
@@ -39,7 +53,7 @@
 }
 
 .link_github {
-    width: 50px;
+    width: 85px;
     height: 50px;
     padding-left: 2rem;
 }
@@ -50,7 +64,7 @@
 }
 
 .link_instagram {
-    width: 47px;
+    width: 97px;
     height: 52px;
     padding-right: 3rem;
 }
