@@ -12,7 +12,7 @@ import InstaLogoColor from '../../Assets/InstagramLogoColor.jpg'
 const Welcome = () => {
     return (
         <div className="welcome">
-            <div className="pic_name">
+            <div className="pic_name text-sm md:text-lg">
                 <img src={DP} alt="DP" className="avatar"></img>
                 <h1>Vineeth Kumar</h1>
                 <h2>Avid Coder &nbsp;&nbsp;|&nbsp;&nbsp; Tech Enthusiast &nbsp;&nbsp;|&nbsp;&nbsp; Photo Editor</h2>

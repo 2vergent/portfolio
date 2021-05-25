@@ -11,7 +11,7 @@
     font-size: 25px;
     display: flex;
     justify-content: center;
-    border-bottom: solid 1px orange;
+    border-bottom: solid 2px orange;
     margin-left: 35px;
     margin-right: 35px;
 }
@@ -19,12 +19,20 @@
 .skills {
     display: flex;
     justify-content: space-between;
+    padding-top: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.skills_photo {
+    border: solid 2px white;
+    border-radius: 30px;
+    padding: 2rem;
 }
 
 .skills_photo > h1 {
     color: white;
-    padding-top: 2.5rem;
-    padding-left: 4rem;
+    padding-left: 2rem;
     font-size: 20px;
     font-family: 'Raleway-Regular';
 }
@@ -32,15 +40,19 @@
 .skills_photo > h2 {
     color: white;
     padding-top: 2.5rem;
-    padding-left: 2.5rem;
     font-size: 20px;
     font-family: 'Raleway-Light';
 }
 
+.skills_video {
+    border: solid 2px white;
+    border-radius: 30px;
+    padding: 2rem;
+}
+
 .skills_video > h1 {
     color: white;
-    padding-top: 2.5rem;
-    padding-left: 1.5rem;
+    padding-left: 2rem;
     font-size: 20px;
     font-family: 'Raleway-Regular';
 }
@@ -52,11 +64,15 @@
     font-family: 'Raleway-Light';
 }
 
+.skills_hobbies {
+    border: solid 2px white;
+    border-radius: 30px;
+    padding: 2rem;
+}
+
 .skills_hobbies > h1 {
     color: white;
-    padding-top: 2.5rem;
-    padding-left: 1.2rem;
-    padding-right: 2.5rem;
+    padding-left: 1.5rem;
     font-size: 20px;
     font-family: 'Raleway-Regular';
 }
@@ -76,7 +92,7 @@
     display: flex;
     padding-top: 4rem;
     padding-bottom: 1rem;
-    border-bottom: solid 1px orange;
+    border-bottom: solid 2px orange;
     justify-content: center;
     margin-left: 35px;
     margin-right: 35px;
@@ -138,4 +154,10 @@ a:hover img:first-child {
 
 .show3original {
     border-radius: 10%;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
 }

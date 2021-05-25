@@ -6,6 +6,8 @@ import Show2Original from '../../Assets/Showcase2OriginalTest.jpg'
 import Show2Edit from '../../Assets/Showcase2Edit.jpg'
 import Show3Original from '../../Assets/Showcase3OriginalTest.jpg'
 import Show3Edit from '../../Assets/Showcase3Edit.jpg'
+import Synked from '../../Assets/Synked - Valorant Montage.mp4'
+import SynkedThumbnail from '../../Assets/Synked Thumbnail.jpg'
 
 const Interest = () => {
     return (
@@ -13,7 +15,7 @@ const Interest = () => {
             <div className="interests_title">
                 <h1>Interests</h1>
             </div>
-            <div className="skills">
+            <div className="skills flex flex-col md:flex-row text-sm md:text-lg">
                 <div className="skills_photo">
                     <h1>Photo Editing</h1>
                     <h2>&#47;&#47;&nbsp; Photo Retouching</h2>
@@ -36,7 +38,7 @@ const Interest = () => {
             <div className="gallery_title">
                 <h1>Gallery</h1>
             </div>
-            <div className="gallery">
+            <div className="gallery flex flex-col md:flex-row text-sm md:text-md">
                 <div className="show1">
                     <a href="https://www.instagram.com/p/B0D9UHwlrqv/">
                         <img src={Show1Edit} alt="Pic 1 Edit" className="show1edit" />
@@ -56,7 +58,12 @@ const Interest = () => {
                     </a>
                 </div>
             </div>
-        </div>
+            <div className="video">
+                <video width="630" height="1190" controls poster={SynkedThumbnail}>
+                    <source src={Synked} type="video/mp4" />
+                </video>
+            </div>
+        </div> 
     )
 }
 
