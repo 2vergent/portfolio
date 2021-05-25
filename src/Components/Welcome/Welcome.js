@@ -23,11 +23,11 @@ const Welcome = () => {
                     </a>
                     <a href="https://www.youtube.com/channel/UCrY2EjtxWozHOP2pflkM9JQ">
                         <img src={YTLogo} alt="YoutubeLogo" className="link_youtube" />
-                        <img src={YTLogoColor} alt="YoutubeLogo" className="link_youtube" />
+                        <img src={YTLogoColor} alt="YoutubeLogoColor" className="link_youtube" />
                     </a>
                     <a href="https://www.instagram.com/underpixel/">
                         <img src={InstaLogo} alt="InstagramLogo" className="link_instagram" />
-                        <img src={InstaLogoColor} alt="InstagramLogo" className="link_instagram" />
+                        <img src={InstaLogoColor} alt="InstagramLogoColor" className="link_instagram" />
                     </a>
                 </div>
             </div>

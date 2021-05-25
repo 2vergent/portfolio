@@ -4,6 +4,9 @@
     justify-content: center;
     display: flex;
     padding-bottom: 7rem;
+    background: url('../../Assets/BG.jpg');
+    background-position: center;
+    background-size: cover;
 }
 
 .avatar {
