@@ -1,11 +1,11 @@
 import React from 'react'
 import './Welcome.css'
 import DP from '../../Assets/MyPicture.jpg'
-import GitLogo from '../../Assets/GithubLogo.jpg'
-import GitLogoColor from '../../Assets/GithubLogoColor.jpg'
-import YTLogo from '../../Assets/YoutubeLogo.jpg'
-import YTLogoColor from '../../Assets/YoutubeLogoColor.jpg'
-import InstaLogo from '../../Assets/InstagramLogo.jpg'
+import GitLogo from '../../Assets/GithubLogo.png'
+import GitLogoColor from '../../Assets/GithubLogoColor.png'
+import YTLogo from '../../Assets/YoutubeLogo.png'
+import YTLogoColor from '../../Assets/YoutubeLogoColor.png'
+import InstaLogo from '../../Assets/InstagramLogo.png'
 import InstaLogoColor from '../../Assets/InstagramLogoColor.png'
 
 

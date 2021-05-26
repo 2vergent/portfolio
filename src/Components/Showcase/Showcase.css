@@ -8,18 +8,22 @@
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    background: rgba(41, 41, 41, 0.164);
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
     border-top: solid 4px #292929;
-    /* background: black; */
-    border-start-start-radius: 30px;
-    border-start-end-radius: 30px;
+    border-bottom: solid 4px #292929;
+    border-radius: 30px;
 }
 
 a img:last-child {
     display: none;  
 }
+
 a:hover img:last-child {
     display: block;
 }
+
 a:hover img:first-child {
     display: none;
 }
@@ -68,6 +72,7 @@ a:hover img:first-child {
     font-family: 'Raleway-Regular';
     font-size: 20px;
     padding-top: 2px;
+    margin-left: 4px;
 }
 
 .insta_tools {
@@ -96,50 +101,50 @@ a:hover img:first-child {
 }
 
 .show1edit {
-    width: 300px;
-    height: 300px;
-    border-radius: 5%;
+    width: 320px;
+    height: 320px;
+    border-radius: 10%;
 }
 
 .show1orig {
-    width: 300px;
-    height: 300px;
-    border-radius: 5%;
+    width: 320px;
+    height: 320px;
+    border-radius: 10%;
 }
 
 .show2edit {
-    width: 300px;
-    height: 300px;
-    border-radius: 5%;
+    width: 320px;
+    height: 320px;
+    border-radius: 10%;
 }
 
 .show2orig {
-    width: 300px;
-    height: 300px;
-    border-radius: 5%;
+    width: 320px;
+    height: 320px;
+    border-radius: 10%;
 }
 
 .show3edit {
-    width: 300px;
-    height: 300px;
-    border-radius: 5%;
+    width: 320px;
+    height: 320px;
+    border-radius: 10%;
 }
 
 .show3orig {
-    width: 300px;
-    height: 300px;
-    border-radius: 5%;
+    width: 320px;
+    height: 320px;
+    border-radius: 10%;
 }
 
 .show4edit {
-    width: 300px;
-    height: 300px;
-    border-radius: 5%;
+    width: 320px;
+    height: 320px;
+    border-radius: 10%;
 }
 
 .show4orig {
-    width: 300px;
-    height: 300px;
-    border-radius: 5%;
+    width: 320px;
+    height: 320px;
+    border-radius: 10%;
 }
 
