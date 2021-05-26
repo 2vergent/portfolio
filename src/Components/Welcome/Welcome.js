@@ -6,7 +6,7 @@ import GitLogoColor from '../../Assets/GithubLogoColor.jpg'
 import YTLogo from '../../Assets/YoutubeLogo.jpg'
 import YTLogoColor from '../../Assets/YoutubeLogoColor.jpg'
 import InstaLogo from '../../Assets/InstagramLogo.jpg'
-import InstaLogoColor from '../../Assets/InstagramLogoColor.jpg'
+import InstaLogoColor from '../../Assets/InstagramLogoColor.png'
 
 
 const Welcome = () => {
