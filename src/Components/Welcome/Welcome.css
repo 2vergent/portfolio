@@ -1,3 +1,17 @@
+.main_welcome > h1{
+    color: white;
+    font-family: 'Raleway-Regular';
+    font-size: 20px;
+    padding: 1rem 2rem;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-bottom: solid 3px #292929;
+    background: url('../../Assets/BG.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .welcome {
     width: 100%;
     align-items: center;
@@ -7,6 +21,7 @@
     background: url('../../Assets/BG.jpg');
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .avatar {
