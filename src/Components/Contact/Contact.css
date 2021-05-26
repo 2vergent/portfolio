@@ -1,0 +1,53 @@
+.contact_main {
+    color: white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    /* background: url('../../Assets/BG.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; */
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
+    border-top: solid 4px #292929;
+    border-bottom: solid 4px #292929;
+    border-radius: 30px;
+
+
+    background: #0d0d0d;
+}
+
+.contact {
+    display: flex;
+}
+
+.contact_title {
+    display: flex;
+}
+
+.contact_title > img {
+    width: 260px;
+    height: 240px;
+    border-right: solid 3px #292929;
+    padding-right: 0.5rem;
+}
+
+.contact_details_studies > h1{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-size: 20px;
+    font-family: 'Raleway-Regular';
+    border-right: solid 3px #292929;
+}
+
+.contact_details_actual > h1{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-size: 20px;
+    font-family: 'Raleway-Regular';
+}
