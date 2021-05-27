@@ -10,7 +10,7 @@ const Contact = () => {
         <div className="contact_main">
             <div className="contact flex flex-col md:flex-row">
                 <div className="contact_title">
-                    <div className="logo flex w-60 pl-10 md:w-[90%] md:pl-0">
+                    <div className="logo flex w-60 pl-10 md:w-[95%] md:pl-0">
                         <img src={ContactIcon} alt="ContactIcon" />
                     </div>
                 </div>
