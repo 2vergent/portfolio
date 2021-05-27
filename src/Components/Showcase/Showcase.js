@@ -1,9 +1,8 @@
 import React from 'react'
 import './Showcase.css'
-import Underpixel from '../../Assets/Underpixel.jpg'
-// import BG from '../../Assets/BG.jpg'
 import Tools from '../../Assets/Tools.png'
-import InstaLogoColor from '../../Assets/InstagramLogoColor.png'
+import InstaColor from '../../Assets/InstagramLogoColor.png'
+import ShowcaseLogo from '../../Assets/ShowcaseLogo.png'
 import Show1Edit from '../../Assets/Showcase1Edit.jpg'
 import Show1Original from '../../Assets/Showcase1Original.jpg'
 import Show2Edit from '../../Assets/Showcase2Edit.jpg'
@@ -18,10 +17,10 @@ const Showcase = () => {
         <div className="showcase">
             <div className="showcase_container">
                 <div className="insta_showcase">
-                    <img src={InstaLogoColor} alt="InstaLogo" />
+                    <img src={ShowcaseLogo} alt="InstaLogo" />
                     <div className="insta_details">
                         <div className="insta_id">
-                            <img src={Underpixel} alt="Underpixel" />
+                            <img src={InstaColor} alt="Underpixel" />
                             <h1>underpixel</h1>
                         </div>
                         

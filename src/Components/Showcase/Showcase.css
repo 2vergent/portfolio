@@ -3,18 +3,10 @@
     padding-left: 2rem;
     padding-right: 2rem;
     padding-top: 2rem;
-    padding-bottom: 3rem;
-    /* background: url('../../Assets/BG.jpg');
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed; */
-    /* filter: blur(8px);
-    -webkit-filter: blur(8px); */
+    padding-bottom: 2rem;
     border-top: solid 4px #292929;
     border-bottom: solid 4px #292929;
     border-radius: 30px;
-
-
     background: #0d0d0d;
 }
 
@@ -35,8 +27,8 @@ a:hover img:first-child {
 }
 
 .insta_showcase > img {
-    width: 200px;
-    height: 220px;
+    width: 210px;
+    height: 215px;
 }
 
 .insta_details {
@@ -58,6 +50,7 @@ a:hover img:first-child {
     font-family: 'Raleway-Light';
     font-size: 20px;
     margin-left: 10px;
+    margin-top: -4px;
 }
 
 .insta_id {
@@ -66,16 +59,17 @@ a:hover img:first-child {
 }
 
 .insta_id > img {
-    width: 40px;
-    height: 40px;
-    border-radius: 100%;
+    width: 28px;
+    height: 30px;
+    margin-left: 9px;
 }
 
 .insta_id > h1 {
     font-family: 'Raleway-Regular';
     font-size: 20px;
     padding-top: 2px;
-    margin-left: 4px;
+    padding-left: 2px;
+    margin-left: 6px;
 }
 
 .insta_tools {
@@ -88,6 +82,7 @@ a:hover img:first-child {
     width: 25px;
     height: 25px;
     margin-left: -30px;
+    margin-top: 5px;
 }
 
 .insta_tools > h1 {
@@ -95,6 +90,7 @@ a:hover img:first-child {
     font-size: 20px;
     padding-left: 10px;
     padding-bottom: 0.5rem;
+    margin-top: 4px;
 }
 
 .insta_posts {
