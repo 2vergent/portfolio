@@ -3,16 +3,12 @@
     font-family: 'Raleway-Regular';
     font-size: 20px;
     padding: 1rem 2rem;
-    /* background: url('../../Assets/BG.jpg');
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed; */
     border-bottom: solid 4px #292929;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
-
-
     background: #0d0d0d;
+    display: flex;
+    justify-content: center;
 }
 
 .welcome {
@@ -69,25 +65,28 @@ a:hover img:first-child {
 
 .links {
     padding: 2rem 1rem;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: auto;
 }
 
 .link_github {
     width: 85px;
     height: 52px;
-    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .link_youtube {
     width: 90px;
     height: 50px;
+    margin-left: 1.2rem;
 }
 
 .link_instagram {
     width: 97px;
     height: 52px;
-    padding-right: 3rem;
+    padding-left: 3rem;
     margin-top: -4px;
 }

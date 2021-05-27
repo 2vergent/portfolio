@@ -16,8 +16,10 @@ const Showcase = () => {
     return (
         <div className="showcase">
             <div className="showcase_container">
-                <div className="insta_showcase">
-                    <img src={ShowcaseLogo} alt="InstaLogo" />
+                <div className="insta_showcase flex flex-col md:flex-row">
+                    <div className="instalogo flex w-60 pl-10 md:w-[14%] md:pl-0">
+                        <img src={ShowcaseLogo} alt="InstaLogo" />
+                    </div>
                     <div className="insta_details">
                         <div className="insta_id">
                             <img src={InstaColor} alt="Underpixel" />
@@ -33,7 +35,7 @@ const Showcase = () => {
                     </div>
                 </div>
 
-                <div className="insta_posts">
+                <div className="insta_posts flex flex-col pl-2 space-y-5 md:flex-row md:space-y-0 md:pl-0">
                     <a href="https://www.instagram.com/p/B0D9UHwlrqv/" className="pic1">
                         <img src={Show1Edit} alt="Pic1" className="show1edit" />
                         <img src={Show1Original} alt="Pic1" className="show1orig" />

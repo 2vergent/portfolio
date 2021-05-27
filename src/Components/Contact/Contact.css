@@ -2,8 +2,8 @@
     color: white;
     padding-left: 2rem;
     padding-right: 2rem;
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     border-top: solid 4px #292929;
     border-bottom: solid 4px #292929;
     border-radius: 30px;
@@ -18,28 +18,73 @@
     display: flex;
 }
 
-.contact_title > img {
-    width: 260px;
-    height: 240px;
-    border-right: solid 3px #292929;
-    padding-right: 0.5rem;
+.logo > img {
+    width: 220px;
+    height: 230px;
 }
 
-.contact_details_studies > h1{
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-top: 2rem;
-    padding-bottom: 1rem;
-    font-size: 20px;
-    font-family: 'Raleway-Regular';
-    border-right: solid 3px #292929;
+.contact_details_studies {
+    padding-top: 1rem;
+    margin-top: 5px;
+    margin-left: 25px;
+    border-left: solid 3px #292929;
 }
 
-.contact_details_actual > h1{
+.college_name {
+    display: flex;
+    padding-top: 1rem;
     padding-left: 2rem;
-    padding-right: 2rem;
-    padding-top: 2rem;
-    padding-bottom: 1rem;
+    padding-right: 3rem;
+}
+
+.college_name > img {
+    width: 35px;
+    height: 35px;
+}
+
+.college_name > h1 {
     font-size: 20px;
     font-family: 'Raleway-Regular';
+    padding-left: 0.5rem;
 }
+
+.course_name {
+    display: flex;
+    padding-top: 1.5rem;
+    padding-left: 2rem;
+    margin-left: 5px;
+}
+
+.course_name > img {
+    width: 21px;
+    height: 21px;
+}
+
+.course_name > h1 {
+    font-size: 20px;
+    font-family: 'Raleway-Regular';
+    padding-left: 0.5rem;
+    margin-top: -5px;
+    margin-left: 10px;
+}
+
+.location_name {
+    display: flex;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    margin-left: 2px;
+    margin-top: 10px;
+}
+
+.location_name > img {
+    width: 27px;
+    height: 27px;
+}
+
+.location_name > h1 {
+    font-size: 20px;
+    font-family: 'Raleway-Regular';
+    padding-left: 0.5rem;
+    margin-left: 8px;
+}
+
