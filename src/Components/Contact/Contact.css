@@ -145,6 +145,7 @@
 .email_name > img {
     width: 27px;
     height: 27px;
+    margin-top: 3px;
 }
 
 .email_name > h1 {

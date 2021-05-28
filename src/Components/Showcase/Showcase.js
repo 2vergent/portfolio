@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slider';
 import './Showcase.css'
 import Aos from "aos"
 import "aos/dist/aos.css"
@@ -41,25 +42,46 @@ const Showcase = () => {
                 </div>
 
                 <div data-aos="fade-left" className="insta_posts flex flex-col pl-2 space-y-5 md:flex-row md:space-y-0 md:pl-0">
-                    <a href="https://www.instagram.com/p/B0D9UHwlrqv/" className="pic1">
+
+                    <ReactCompareSlider className="pic1"
+                        itemOne={<ReactCompareSliderImage src={Show1Edit} alt="Image one" />}
+                        itemTwo={<ReactCompareSliderImage src={Show1Original} alt="Image two" />}
+                    />
+
+                    {/* <a href="https://www.instagram.com/p/B0D9UHwlrqv/" className="pic1">
                         <img src={Show1Edit} alt="Pic1" className="show1edit" />
                         <img src={Show1Original} alt="Pic1" className="show1orig" />
-                    </a>
+                    </a> */}
 
-                    <a href="https://www.instagram.com/p/B0OQwoJlo2y/" className="pic2">
+                    <ReactCompareSlider className="pic2"
+                        itemOne={<ReactCompareSliderImage src={Show2Edit} alt="Image one" />}
+                        itemTwo={<ReactCompareSliderImage src={Show2Original} alt="Image two" />}
+                    />
+
+                    {/* <a href="https://www.instagram.com/p/B0OQwoJlo2y/" className="pic2">
                         <img src={Show2Edit} alt="Pic2" className="show2edit" />
                         <img src={Show2Original} alt="Pic2" className="show2orig" />
-                    </a>
+                    </a> */}
 
-                    <a href="https://www.instagram.com/p/ByVM74Hl0g_/" className="pic3">
+                    <ReactCompareSlider className="pic3"
+                        itemOne={<ReactCompareSliderImage src={Show3Edit} alt="Image one" />}
+                        itemTwo={<ReactCompareSliderImage src={Show3Original} alt="Image two" />}
+                    />
+
+                    {/* <a href="https://www.instagram.com/p/ByVM74Hl0g_/" className="pic3">
                         <img src={Show3Edit} alt="Pic3" className="show3edit" />
                         <img src={Show3Original} alt="Pic3" className="show3orig" />
-                    </a>
+                    </a> */}
 
-                    <a href="https://www.instagram.com/p/BxkVEzfg4Is/" className="pic4">
+                    <ReactCompareSlider className="pic4"
+                        itemOne={<ReactCompareSliderImage src={Show4Edit} alt="Image one" />}
+                        itemTwo={<ReactCompareSliderImage src={Show4Original} alt="Image two" />}
+                    />
+
+                    {/* <a href="https://www.instagram.com/p/BxkVEzfg4Is/" className="pic4">
                         <img src={Show4Edit} alt="Pic4" className="show4edit" />
                         <img src={Show4Original} alt="Pic4" className="show4orig" />
-                    </a>
+                    </a> */}
 
                 </div>
             </div>

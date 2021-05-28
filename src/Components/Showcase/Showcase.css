@@ -2,24 +2,12 @@
     color: white;
     padding-left: 2rem;
     padding-right: 2rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
     border-top: solid 4px #292929;
     border-bottom: solid 4px #292929;
     border-radius: 30px;
     background: #0d0d0d;
-}
-
-a img:last-child {
-    display: none;  
-}
-
-a:hover img:last-child {
-    display: block;
-}
-
-a:hover img:first-child {
-    display: none;
 }
 
 .insta_showcase {
@@ -99,7 +87,31 @@ a:hover img:first-child {
     justify-content: space-between;
 }
 
-.show1edit {
+.pic1 {
+    width: 320px;
+    height: 320px;
+    border-radius: 10%;
+}
+
+.pic2 {
+    width: 320px;
+    height: 320px;
+    border-radius: 10%;
+}
+
+.pic3 {
+    width: 320px;
+    height: 320px;
+    border-radius: 10%;
+}
+
+.pic4 {
+    width: 320px;
+    height: 320px;
+    border-radius: 10%;
+}
+
+/* .show1edit {
     width: 320px;
     height: 320px;
     border-radius: 10%;
@@ -109,9 +121,9 @@ a:hover img:first-child {
     width: 320px;
     height: 320px;
     border-radius: 10%;
-}
+} */
 
-.show2edit {
+/* .show2edit {
     width: 320px;
     height: 320px;
     border-radius: 10%;
@@ -145,5 +157,5 @@ a:hover img:first-child {
     width: 320px;
     height: 320px;
     border-radius: 10%;
-}
+} */
 
