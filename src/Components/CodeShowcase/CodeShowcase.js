@@ -12,6 +12,8 @@ import Stock from '../../Assets/stock.jpg'
 import StocklLink from '../../Assets/stockLink.jpg'
 import Bank from '../../Assets/bank.jpg'
 import BanklLink from '../../Assets/bankLink.jpg'
+import Lettre from '../../Assets/lettre.jpg'
+import LettreLink from '../../Assets/lettreLink.jpg'
 
 const CodeShowcase = () => {
     useEffect(() => {
@@ -54,10 +56,10 @@ const CodeShowcase = () => {
                         <img src={BanklLink} alt="Pic3" className="show3orig" />
                     </a>
 
-                    {/* <a href="Coming Soon" className="pic4">
-                        <img src={DummyCode} alt="Pic4" className="show4edit" />
-                        <img src={DummyCode} alt="Pic4" className="show4orig" />
-                    </a> */}
+                    <a href="https://github.com/2vergent/lettre_project" className="pic4">
+                        <img src={Lettre} alt="Pic4" className="show4edit" />
+                        <img src={LettreLink} alt="Pic4" className="show4orig" />
+                    </a>
 
                 </div>
             </div> 
