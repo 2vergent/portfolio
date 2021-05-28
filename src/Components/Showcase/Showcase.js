@@ -17,7 +17,7 @@ import Show4Original from '../../Assets/Showcase4Original.jpg'
 
 const Showcase = () => {
     useEffect(() => {
-        Aos.init({ duration: 1000, mirror: true });
+        Aos.init({ duration: 1000 });
     }, []);
     return (
         <div className="showcase">
@@ -41,23 +41,23 @@ const Showcase = () => {
                     </div>
                 </div>
 
-                <div data-aos="fade-left" className="insta_posts flex flex-col pl-2 space-y-5 md:flex-row md:space-y-0 md:pl-0">
-                    <ReactCompareSlider className="pic1" onlyHandleDraggable="true"
+                <div className="insta_posts flex flex-col pl-2 space-y-5 md:flex-row md:space-y-0 md:pl-0">
+                    <ReactCompareSlider data-aos="fade-left" className="pic1" onlyHandleDraggable="true"
                         itemOne={<ReactCompareSliderImage src={Show1Edit} alt="Image one" />}
                         itemTwo={<ReactCompareSliderImage src={Show1Original} alt="Image two" />}
                     />
 
-                    <ReactCompareSlider className="pic2" onlyHandleDraggable="true"
+                    <ReactCompareSlider data-aos="fade-left" className="pic2" onlyHandleDraggable="true"
                         itemOne={<ReactCompareSliderImage src={Show2Edit} alt="Image one" />}
                         itemTwo={<ReactCompareSliderImage src={Show2Original} alt="Image two" />}
                     />
 
-                    <ReactCompareSlider className="pic3" onlyHandleDraggable="true"
+                    <ReactCompareSlider data-aos="fade-left" className="pic3" onlyHandleDraggable="true"
                         itemOne={<ReactCompareSliderImage src={Show3Edit} alt="Image one" />}
                         itemTwo={<ReactCompareSliderImage src={Show3Original} alt="Image two" />}
                     />
 
-                    <ReactCompareSlider className="pic4" onlyHandleDraggable="true"
+                    <ReactCompareSlider data-aos="fade-left" className="pic4" onlyHandleDraggable="true"
                         itemOne={<ReactCompareSliderImage src={Show4Edit} alt="Image one" />}
                         itemTwo={<ReactCompareSliderImage src={Show4Original} alt="Image two" />}
                     />

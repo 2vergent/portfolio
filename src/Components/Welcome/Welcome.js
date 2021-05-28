@@ -14,7 +14,7 @@ import InstaLogoColor from '../../Assets/InstagramLogoColor.png'
 
 const Welcome = () => {
     useEffect(() => {
-        Aos.init({ duration: 2000, mirror: true });
+        Aos.init({ duration: 1000 });
     }, []);
     return (
         <div className="main_welcome">

@@ -12,7 +12,7 @@ import TelegramIcon from '../../Assets/Telegram.png'
 
 const Contact = () => {
     useEffect(() => {
-        Aos.init({ duration: 1000, mirror: true })
+        Aos.init({ duration: 1000 })
     }, []);
     return (
         <div className="contact_main">
