@@ -20,7 +20,7 @@
 
 .logo > img {
     width: 220px;
-    height: 230px;
+    height: 220px;
 }
 
 .contact_details_studies {
@@ -88,3 +88,68 @@
     margin-left: 8px;
 }
 
+.contact_details_actual {
+    padding-top: 1rem;
+    padding-left: 1rem;
+    margin-top: 5px;
+    margin-left: 25px;
+    border-left: solid 3px #292929;
+}
+
+.telegram_name {
+    display: flex;
+    padding-top: 1.5rem;
+    margin-top: -5px;
+    margin-left: 25px;
+    padding-bottom: 1rem;
+}
+
+.telegram_name > img {
+    width: 27px;
+    height: 27px;
+}
+
+.telegram_name > h1 {
+    font-size: 20px;
+    font-family: 'Raleway-Regular';
+    padding-left: 0.5rem;
+    margin-left: 5px;
+    margin-top: -5px;
+}
+
+.phone_name {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.phone_name > img {
+    width: 27px;
+    height: 27px;
+}
+
+.phone_name > h1 {
+    font-size: 20px;
+    font-family: 'Rounded-Elegance';
+    padding-left: 0.5rem;
+    margin-left: 5px;
+}
+
+.email_name {
+    display: flex;
+    padding-top: 1rem;
+    margin-top: 5px;
+    margin-left: 25px;
+}
+
+.email_name > img {
+    width: 27px;
+    height: 27px;
+}
+
+.email_name > h1 {
+    font-size: 20px;
+    font-family: 'Raleway-Regular';
+    padding-left: 0.5rem;
+    margin-left: 5px;
+}

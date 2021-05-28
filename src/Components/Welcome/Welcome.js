@@ -1,5 +1,7 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Typewriter from 'typewriter-effect'
+import Aos from "aos"
+import "aos/dist/aos.css"
 import './Welcome.css'
 import DP from '../../Assets/MyPicture.jpg'
 import GitLogo from '../../Assets/GithubLogo.png'
@@ -11,11 +13,14 @@ import InstaLogoColor from '../../Assets/InstagramLogoColor.png'
 
 
 const Welcome = () => {
+    useEffect(() => {
+        Aos.init({ duration: 2000, mirror: true });
+    }, []);
     return (
         <div className="main_welcome">
             <h1>Welcome</h1>
             <div className="welcome">
-                <div className="pic_name sm:text-sm md:text-lg">
+                <div data-aos="fade-up" className="pic_name sm:text-sm md:text-lg">
                     <img src={DP} alt="DP" className="avatar"></img>
                     <h1>Vineeth Kumar</h1>
                     <h2>

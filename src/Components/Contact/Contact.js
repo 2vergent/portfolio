@@ -1,11 +1,19 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import Aos from "aos"
+import "aos/dist/aos.css"
 import './Contact.css'
 import ContactIcon from '../../Assets/ContactLogo.png'
 import CollegeIcon from '../../Assets/College.png'
 import CourseIcon from '../../Assets/Course.png'
 import LocationIcon from '../../Assets/Location.png'
+import PhoneIcon from '../../Assets/Phone.png'
+import EmailIcon from '../../Assets/Email.png'
+import TelegramIcon from '../../Assets/Telegram.png'
 
 const Contact = () => {
+    useEffect(() => {
+        Aos.init({ duration: 1000, mirror: true })
+    }, []);
     return (
         <div className="contact_main">
             <div className="contact flex flex-col md:flex-row">
@@ -14,7 +22,8 @@ const Contact = () => {
                         <img src={ContactIcon} alt="ContactIcon" />
                     </div>
                 </div>
-                <div className="contact_details_studies">
+
+                <div data-aos="fade-right" className="contact_details_studies">
                     <div className="college_name">
                         <img src={CollegeIcon} alt="CollegeIcon" />
                         <h1>PES University, South Campus</h1>
@@ -31,10 +40,23 @@ const Contact = () => {
                     </div>
 
                 </div>
-                {/* <div className="contact_details_actual">
-                    <h1>+91 9606222530</h1>
-                    <h1>vineethkm2000@gmail.com</h1>
-                </div> */}
+                <div data-aos="fade-left" className="contact_details_actual">
+                    <div className="telegram_name">
+                        <img src={TelegramIcon} alt="TelegramIcon" />
+                        <h1>sphn1x</h1>
+                    </div>
+
+                    <div className="phone_name">
+                        <img src={PhoneIcon} alt="PhoneIcon" />
+                        <h1>+91 9606222530</h1>
+                    </div>
+
+                    <div className="email_name">
+                        <img src={EmailIcon} alt="EmailIcon" />
+                        <h1>vineethkm2000@gmail.com</h1>
+                    </div>
+                    
+                </div>
             </div>
         </div>
     )
