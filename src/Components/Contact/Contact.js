@@ -21,6 +21,7 @@ const Contact = () => {
                     <div className="logo flex w-60 pl-10 md:w-[95%] md:pl-0">
                         <img src={ContactIcon} alt="ContactIcon" />
                     </div>
+
                 </div>
 
                 <div data-aos="fade-right" className="contact_details_studies">
@@ -40,6 +41,7 @@ const Contact = () => {
                     </div>
 
                 </div>
+
                 <div data-aos="fade-left" className="contact_details_actual">
                     <div className="telegram_name">
                         <img src={TelegramIcon} alt="TelegramIcon" />
@@ -57,7 +59,9 @@ const Contact = () => {
                     </div>
                     
                 </div>
+
             </div>
+            
         </div>
     )
 }

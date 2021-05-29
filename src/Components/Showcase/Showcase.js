@@ -26,6 +26,7 @@ const Showcase = () => {
                     <div className="instalogo flex w-60 pl-10 md:w-[14%] md:pl-0">
                         <img src={ShowcaseLogo} alt="InstaLogo" />
                     </div>
+                    
                     <div data-aos="fade-right" className="insta_details">
                         <div className="insta_id">
                             <img src={InstaColor} alt="Underpixel" />
@@ -39,6 +40,7 @@ const Showcase = () => {
 
                         <h2>Photoshop &#38; Lightroom</h2>
                     </div>
+
                 </div>
 
                 <div className="insta_posts flex flex-col pl-2 space-y-5 md:flex-row md:space-y-0 md:pl-0">
@@ -63,7 +65,9 @@ const Showcase = () => {
                     />
 
                 </div>
+
             </div>
+            
         </div>
     )
 }
