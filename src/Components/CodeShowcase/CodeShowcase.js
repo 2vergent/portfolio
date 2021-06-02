@@ -21,9 +21,9 @@ const CodeShowcase = () => {
     return (
         <div className="code_main">
             <div className="codesmain_container">
-                <div className="code_showcase insta_showcase flex flex-col md:flex-row">
+                <div className="code_showcase flex flex-col md:flex-row">
                     <div className="codelogo flex pl-10 md:pl-5">
-                    <img src={CodeLogo} alt="CodeLogo" />
+                        <img src={CodeLogo} alt="CodeLogo" />
                     </div>
 
                     <div data-aos="fade-right" className="code_details">

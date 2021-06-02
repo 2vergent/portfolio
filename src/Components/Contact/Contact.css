@@ -14,10 +14,6 @@
     display: flex;
 }
 
-.contact_title {
-    display: flex;
-}
-
 .logo > img {
     width: 215px;
     height: 240px;
@@ -25,7 +21,7 @@
 
 .contact_details_studies {
     padding-top: 1rem;
-    margin-top: 5px;
+    margin-top: 15px;
     margin-left: 40px;
     border-left: solid 3px #292929;
 }
@@ -91,7 +87,7 @@
 .contact_details_actual {
     padding-top: 1rem;
     padding-left: 1rem;
-    margin-top: 5px;
+    margin-top: 15px;
     margin-left: 40px;
     border-left: solid 3px #292929;
 }
