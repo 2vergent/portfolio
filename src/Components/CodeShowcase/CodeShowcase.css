@@ -14,7 +14,7 @@
     color: white;
 }
 
-.code_showcase > img {
+.codelogo > img {
     width: 210px;
     height: 230px;
 }
@@ -80,57 +80,9 @@
     padding-bottom: 0.5rem;
 }
 
-.code_posts {
-    padding-top: 2rem;
-    display: flex;
-    justify-content: space-between;
-}
-
 .show1edit {
-    width: 320px;
-    height: 320px;
-    border-radius: 10%;
-}
-
-.show1orig {
-    width: 320px;
-    height: 320px;
-    border-radius: 10%;
-}
-
-.show2edit {
-    width: 320px;
-    height: 320px;
-    border-radius: 10%;
-}
-
-.show2orig {
-    width: 320px;
-    height: 320px;
-    border-radius: 10%;
-}
-
-.show3edit {
-    width: 320px;
-    height: 320px;
-    border-radius: 10%;
-}
-
-.show3orig {
-    width: 320px;
-    height: 320px;
-    border-radius: 10%;
-}
-
-.show4edit {
-    width: 320px;
-    height: 320px;
-    border-radius: 10%;
-}
-
-.show4orig {
-    width: 320px;
-    height: 320px;
+    width: 100%;
+    height: auto;
     border-radius: 10%;
 }
 

@@ -14,7 +14,7 @@
     display: flex;
 }
 
-.insta_showcase > img {
+.instalogo > img {
     width: 210px;
     height: 215px;
 }
@@ -81,32 +81,30 @@
     margin-top: 4px;
 }
 
-.insta_posts {
-    padding-top: 2rem;
-    display: flex;
-    justify-content: space-between;
-}
-
 .pic1 {
-    width: 320px;
-    height: 320px;
+    width: 87%;
+    height: auto;
     border-radius: 10%;
+    margin-bottom: 20px;
 }
 
 .pic2 {
-    width: 320px;
-    height: 320px;
+    width: 87%;
+    height: auto;
     border-radius: 10%;
+    margin-bottom: 20px;
 }
 
 .pic3 {
-    width: 320px;
-    height: 320px;
+    width: 87%;
+    height: auto;
     border-radius: 10%;
+    margin-bottom: 20px;
 }
 
 .pic4 {
-    width: 320px;
-    height: 320px;
+    width: 87%;
+    height: auto;
     border-radius: 10%;
+    margin-bottom: 20px;
 }

@@ -22,7 +22,7 @@ const CodeShowcase = () => {
         <div className="code_main">
             <div className="codesmain_container">
                 <div className="code_showcase insta_showcase flex flex-col md:flex-row">
-                    <div className="codelogo flex w-60 pl-10 md:w-[14%] md:pl-0">
+                    <div className="codelogo flex pl-10 md:pl-5">
                     <img src={CodeLogo} alt="CodeLogo" />
                     </div>
 
@@ -42,25 +42,25 @@ const CodeShowcase = () => {
 
                 </div>
                 
-                <div className="code_posts insta_posts flex flex-col pl-2 space-y-5 md:flex-row md:space-y-0 md:pl-0">
+                <div className="code_posts grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 pl-2 pt-[2rem] md:pl-0 place-items-center">
                     <a data-aos="fade-left" href="https://github.com/2vergent/pyjournal" className="pic1">
                         <img src={Pyjournal} alt="Pic1" className="show1edit" />
-                        <img src={PyjournalLink} alt="Pic1" className="show1orig" />
+                        <img src={PyjournalLink} alt="Pic1" className="show1edit" />
                     </a>
 
                     <a data-aos="fade-left" href="https://github.com/2vergent/stock-analysis" className="pic2">
-                        <img src={Stock} alt="Pic2" className="show2edit" />
-                        <img src={StocklLink} alt="Pic2" className="show2orig" />
+                        <img src={Stock} alt="Pic2" className="show1edit" />
+                        <img src={StocklLink} alt="Pic2" className="show1edit" />
                     </a>
 
                     <a data-aos="fade-left" href="https://github.com/2vergent/MiniBank" className="pic3">
-                        <img src={Bank} alt="Pic3" className="show3edit" />
-                        <img src={BanklLink} alt="Pic3" className="show3orig" />
+                        <img src={Bank} alt="Pic3" className="show1edit" />
+                        <img src={BanklLink} alt="Pic3" className="show1edit" />
                     </a>
 
                     <a data-aos="fade-left" href="https://github.com/2vergent/lettre_project" className="pic4">
-                        <img src={Lettre} alt="Pic4" className="show4edit" />
-                        <img src={LettreLink} alt="Pic4" className="show4orig" />
+                        <img src={Lettre} alt="Pic4" className="show1edit" />
+                        <img src={LettreLink} alt="Pic4" className="show1edit" />
                     </a>
 
                 </div>

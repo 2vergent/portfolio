@@ -19,14 +19,14 @@
 }
 
 .logo > img {
-    width: 220px;
-    height: 220px;
+    width: 215px;
+    height: 240px;
 }
 
 .contact_details_studies {
     padding-top: 1rem;
     margin-top: 5px;
-    margin-left: 25px;
+    margin-left: 40px;
     border-left: solid 3px #292929;
 }
 
@@ -92,7 +92,7 @@
     padding-top: 1rem;
     padding-left: 1rem;
     margin-top: 5px;
-    margin-left: 25px;
+    margin-left: 40px;
     border-left: solid 3px #292929;
 }
 

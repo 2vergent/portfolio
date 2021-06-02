@@ -21,9 +21,9 @@ const Showcase = () => {
     }, []);
     return (
         <div className="showcase">
-            <div className="showcase_container">
+            <div className="showcase_container items-center">
                 <div className="insta_showcase flex flex-col md:flex-row">
-                    <div className="instalogo flex w-60 pl-10 md:w-[14%] md:pl-0">
+                    <div className="instalogo flex pl-10 md:pl-5">
                         <img src={ShowcaseLogo} alt="InstaLogo" />
                     </div>
                     
@@ -43,7 +43,7 @@ const Showcase = () => {
 
                 </div>
 
-                <div className="insta_posts flex flex-col pl-2 space-y-5 md:flex-row md:space-y-0 md:pl-0">
+                <div className="insta_posts grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 pl-2 pt-[2rem] md:pl-0 place-items-center">
                     <ReactCompareSlider data-aos="fade-left" className="pic1" onlyHandleDraggable="true"
                         itemOne={<ReactCompareSliderImage src={Show1Edit} alt="Image one" />}
                         itemTwo={<ReactCompareSliderImage src={Show1Original} alt="Image two" />}
