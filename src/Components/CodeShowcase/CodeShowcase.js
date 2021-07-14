@@ -26,9 +26,9 @@ const CodeShowcase = () => {
                         <img src={CodeLogo} alt="CodeLogo" />
                     </div>
 
-                    <div data-aos="fade-right" className="code_details">
+                    <div data-aos-anchor-placement="top-center" data-aos="fade-right" className="code_details">
                         <div className="code_id">
-                            <img src={GitLogoColor} alt="Underpixel" />
+                            <img src={GitLogoColor} alt="Github" />
                             <h1>2vergent</h1>
                         </div>
                         
