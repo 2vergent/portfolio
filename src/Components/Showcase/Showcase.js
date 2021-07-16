@@ -27,7 +27,7 @@ const Showcase = () => {
                         <img src={ShowcaseLogo} alt="InstaLogo" />
                     </div>
                     
-                    <div data-aos-anchor-placement="top-center" data-aos="fade-right" className="insta_details">
+                    <div data-aos-anchor-placement="top-bottom" data-aos="fade-right" className="insta_details">
                         <div className="insta_id">
                             <img src={InstaColor} alt="Underpixel" />
                             <h1>underpixel</h1>
@@ -43,7 +43,7 @@ const Showcase = () => {
 
                 </div>
 
-                <div data-aos-anchor-placement="top-center" className="insta_posts grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 pl-2 pt-[2rem] md:pl-0 place-items-center">
+                <div data-aos-anchor-placement="top-bottom" className="insta_posts grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 pl-2 pt-[2rem] md:pl-0 place-items-center">
                     <ReactCompareSlider data-aos="fade-left" className="pic1" onlyHandleDraggable="true"
                         itemOne={<ReactCompareSliderImage src={Show1Edit} alt="Image one" />}
                         itemTwo={<ReactCompareSliderImage src={Show1Original} alt="Image two" />}
