@@ -24,7 +24,7 @@ const Contact = () => {
                 </div>
 
                 <div className = 'flex flex-col md:flex-row' >
-                    <div data-aos-anchor-placement="top-bottom" data-aos="fade-right" className="contact_details_studies">
+                    <div data-aos-anchor-placement="bottom-bottom" data-aos="fade-right" className="contact_details_studies">
                         <div className="college_name">
                             <img src={CollegeIcon} alt="CollegeIcon" />
                             <h1>PES University, South Campus</h1>
@@ -41,7 +41,7 @@ const Contact = () => {
                         </div>
                     </div>
 
-                    <div data-aos-anchor-placement="top-bottom" data-aos="fade-left" className="contact_details_actual">
+                    <div data-aos-anchor-placement="bottom-bottom" data-aos="fade-left" className="contact_details_actual">
                         <div className="telegram_name">
                             <img src={TelegramIcon} alt="TelegramIcon" />
                             <h1>sphn1x</h1>
