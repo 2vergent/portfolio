@@ -17,7 +17,7 @@ import Show4Original from '../../Assets/Showcase4Original.jpg'
 
 const Showcase = () => {
     useEffect(() => {
-        Aos.init({ duration: 1000 });
+        Aos.init({ duration: 1000, anchorPlacement: "bottom-bottom" });
     }, []);
     return (
         <div className="showcase">
@@ -27,7 +27,7 @@ const Showcase = () => {
                         <img src={ShowcaseLogo} alt="InstaLogo" />
                     </div>
                     
-                    <div data-aos-anchor-placement="bottom-bottom" data-aos="fade-right" className="insta_details">
+                    <div data-aos="fade-right" className="insta_details">
                         <div className="insta_id">
                             <img src={InstaColor} alt="Underpixel" />
                             <h1>underpixel</h1>
@@ -43,7 +43,7 @@ const Showcase = () => {
 
                 </div>
 
-                <div data-aos-anchor-placement="bottom-bottom" className="insta_posts grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 pl-2 pt-[2rem] md:pl-0 place-items-center">
+                <div className="insta_posts grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 pl-2 pt-[2rem] md:pl-0 place-items-center">
                     <ReactCompareSlider data-aos="fade-left" className="pic1" onlyHandleDraggable="true"
                         itemOne={<ReactCompareSliderImage src={Show1Edit} alt="Image one" />}
                         itemTwo={<ReactCompareSliderImage src={Show1Original} alt="Image two" />}

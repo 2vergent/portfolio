@@ -16,7 +16,7 @@ import LettreLink from '../../Assets/lettreLink.jpg'
 
 const CodeShowcase = () => {
     useEffect(() => {
-        Aos.init({ duration: 1000 });
+        Aos.init({ duration: 1000, anchorPlacement: "bottom-bottom" });
     }, []);
     return (
         <div className="code_main">
@@ -26,7 +26,7 @@ const CodeShowcase = () => {
                         <img src={CodeLogo} alt="CodeLogo" />
                     </div>
 
-                    <div data-aos-anchor-placement="bottom-bottom" data-aos="fade-right" className="code_details">
+                    <div data-aos="fade-right" className="code_details">
                         <div className="code_id">
                             <img src={GitLogoColor} alt="Github" />
                             <h1>2vergent</h1>
@@ -43,22 +43,22 @@ const CodeShowcase = () => {
                 </div>
                 
                 <div className="code_posts grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 pl-2 pt-[2rem] md:pl-0 place-items-center">
-                    <a data-aos-anchor-placement="center-bottom" data-aos="fade-left" href="https://github.com/2vergent/pyjournal" className="pic1">
+                    <a data-aos="fade-left" href="https://github.com/2vergent/pyjournal" className="pic1">
                         <img src={Pyjournal} alt="Pic1" className="show1edit" />
                         <img src={PyjournalLink} alt="Pic1" className="show1edit" />
                     </a>
 
-                    <a data-aos-anchor-placement="center-bottom" data-aos="fade-left" href="https://github.com/2vergent/stock-analysis" className="pic2">
+                    <a data-aos="fade-left" href="https://github.com/2vergent/stock-analysis" className="pic2">
                         <img src={Stock} alt="Pic2" className="show1edit" />
                         <img src={StocklLink} alt="Pic2" className="show1edit" />
                     </a>
 
-                    <a data-aos-anchor-placement="center-bottom" data-aos="fade-left" href="https://github.com/2vergent/MiniBank" className="pic3">
+                    <a data-aos="fade-left" href="https://github.com/2vergent/MiniBank" className="pic3">
                         <img src={Bank} alt="Pic3" className="show1edit" />
                         <img src={BanklLink} alt="Pic3" className="show1edit" />
                     </a>
 
-                    <a data-aos-anchor-placement="center-bottom" data-aos="fade-left" href="https://github.com/2vergent/lettre_project" className="pic4">
+                    <a data-aos="fade-left" href="https://github.com/2vergent/lettre_project" className="pic4">
                         <img src={Lettre} alt="Pic4" className="show1edit" />
                         <img src={LettreLink} alt="Pic4" className="show1edit" />
                     </a>

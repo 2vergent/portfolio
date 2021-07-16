@@ -14,7 +14,7 @@ import InstaLogoColor from '../../Assets/InstagramLogoColor.png'
 
 const Welcome = () => {
     useEffect(() => {
-        Aos.init({ duration: 1000 });
+        Aos.init({ duration: 1000, anchorPlacement: "bottom-bottom" });
     }, []);
     return (
         <div className="main_welcome">
