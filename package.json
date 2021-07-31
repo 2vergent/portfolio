@@ -11,7 +11,7 @@
     "aos": "^2.3.4",
     "autoprefixer": "^9.8.6",
     "img-comparison-slider": "^3.0.4",
-    "postcss": "^7.0.35",
+    "postcss": "^7.0.36",
     "react": "^17.0.2",
     "react-animate-on-scroll": "^2.1.5",
     "react-compare-slider": "^2.0.2",
