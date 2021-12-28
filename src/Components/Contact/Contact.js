@@ -54,7 +54,7 @@ const Contact = () => {
 
                         <div className="email_name">
                             <img src={EmailIcon} alt="EmailIcon" />
-                            <h1>vineethkm2000@gmail.com</h1>
+                            <h1>Shalini, get well soon</h1>
                         </div>
                     </div>
                 </div>

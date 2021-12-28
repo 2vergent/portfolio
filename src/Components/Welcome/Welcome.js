@@ -4,10 +4,10 @@ import Aos from "aos"
 import "aos/dist/aos.css"
 import './Welcome.css'
 import DP from '../../Assets/MyPicture.jpg'
-import GitLogo from '../../Assets/GithubLogo.png'
-import GitLogoColor from '../../Assets/GithubLogoColor.png'
-import YTLogo from '../../Assets/YoutubeLogo.png'
-import YTLogoColor from '../../Assets/YoutubeLogoColor.png'
+import GitLogo from '../../Assets/GithubLogoModified.png'
+import GitLogoColor from '../../Assets/GithubLogoColorModified.png'
+import YTLogo from '../../Assets/YoutubeLogoModified.png'
+import YTLogoColor from '../../Assets/YoutubeLogoModifiedColor.png'
 import InstaLogo from '../../Assets/InstagramLogo.png'
 import InstaLogoColor from '../../Assets/InstagramLogoColor.png'
 
