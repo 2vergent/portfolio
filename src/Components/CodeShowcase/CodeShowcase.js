@@ -3,7 +3,7 @@ import './CodeShowcase.css'
 import Aos from "aos"
 import "aos/dist/aos.css"
 import CodeLogo from '../../Assets/CodeLogo.png'
-import GitLogoColor from '../../Assets/GithubLogoColor.png'
+import GitLogoColor from '../../Assets/GithubLogoColorModified.png'
 import CodeLang from '../../Assets/CodeLang.png'
 import Pyjournal from '../../Assets/pyjournal.jpg'
 import PyjournalLink from '../../Assets/pyjournalLink.jpg'

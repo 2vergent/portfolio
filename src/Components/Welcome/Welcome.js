@@ -6,8 +6,8 @@ import './Welcome.css'
 import DP from '../../Assets/MyPicture.jpg'
 import GitLogo from '../../Assets/GithubLogoModified.png'
 import GitLogoColor from '../../Assets/GithubLogoColorModified.png'
-import YTLogo from '../../Assets/YoutubeLogoModified.png'
-import YTLogoColor from '../../Assets/YoutubeLogoModifiedColor.png'
+import YTLogo from '../../Assets/LinkedInLogoBW.png'
+import YTLogoColor from '../../Assets/LinkedInLogo.png'
 import InstaLogo from '../../Assets/InstagramLogo.png'
 import InstaLogoColor from '../../Assets/InstagramLogoColor.png'
 
@@ -26,7 +26,7 @@ const Welcome = () => {
                     <h2>
                         <Typewriter
                             options={{
-                                strings: ['Photo Editor', 'Avid Coder', 'Youtuber' ,'Tech Enthusiast'],
+                                strings: ['Graphic Designer', 'Photo Editor', 'Avid Coder','Tech Enthusiast'],
                                 autoStart: true,
                                 loop: true,
                             }}
