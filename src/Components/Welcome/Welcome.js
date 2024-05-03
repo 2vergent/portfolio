@@ -39,7 +39,7 @@ const Welcome = () => {
                             <img src={GitLogoColor} alt="GithubLogoColor" className="link_github" />
                         </a>
 
-                        <a href="https://www.youtube.com/channel/UCrY2EjtxWozHOP2pflkM9JQ">
+                        <a href="https://www.linkedin.com/in/vineeth-kumar-m/">
                             <img src={YTLogo} alt="YoutubeLogo" className="link_youtube" />
                             <img src={YTLogoColor} alt="YoutubeLogoColor" className="link_youtube" />
                         </a>
