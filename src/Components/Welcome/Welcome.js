@@ -26,7 +26,7 @@ const Welcome = () => {
                     <h2>
                         <Typewriter
                             options={{
-                                strings: ['Graphic Designer', 'Photo Editor', 'Avid Coder','Tech Enthusiast'],
+                                strings: ['Full-Stack Developer', 'Avid Coder','Tech Enthusiast', 'Photograher'],
                                 autoStart: true,
                                 loop: true,
                             }}
